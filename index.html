@@ -57,12 +57,7 @@
             inset:0;
             border-radius:30px;
             background:conic-gradient(from 0deg at 50% 50%, rgba(242,114,0,0.125), rgba(255,255,255,.125), rgba(242,114,0,0.125));
-            animation:spin 6s linear infinite;
             z-index:-1;
-        }
-        @keyframes spin{
-            0% {transform:rotate(0deg);}
-            100% {transform:rotate(360deg);}
         }
         .btn{
             position:relative;
@@ -106,14 +101,7 @@
             background:#F27200;
             border-radius:50%;
             box-shadow:0 0 15px #F27200,0 0 25px #F27200;
-            animation:float 6s ease-in-out infinite;
             pointer-events:none;
-        }
-        @keyframes float{
-            0%,100% {transform:translateY(0) scale(0); opacity:0;}
-            10% {opacity:1;}
-            90% {opacity:1;}
-            100% {transform:translateY(-100vh) scale(1); opacity:0;}
         }
         details[open] summary span{
             transform:rotate(45deg);
